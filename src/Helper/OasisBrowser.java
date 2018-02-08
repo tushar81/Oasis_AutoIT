@@ -34,7 +34,7 @@ public class OasisBrowser
 	@BeforeSuite
 	public static void setup() throws InterruptedException, FileNotFoundException, AWTException 
 	{
-		//IEDriver
+		//IEDriver launch Oasis
 		  
 		System.setProperty("webdriver.ie.driver", "C://Users//ukccs1tsa//Downloads//Tushar CC//Tools//Selenium//IEDriver//IEDriverServer.exe");
 		DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
